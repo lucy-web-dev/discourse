@@ -294,8 +294,8 @@ importers:
         specifier: workspace:1.0.0
         version: link:../discourse-widget-hbs
       ember-curry-component:
-        specifier: ^0.1.0
-        version: 0.1.0(@babel/core@7.26.0)
+        specifier: ^0.3.0
+        version: 0.3.0(@babel/core@7.26.0)
       ember-resolver:
         specifier: ^13.1.0
         version: 13.1.0(ember-source@5.12.0(patch_hash=xx7mvsb7nmshqkkqhmf45r3hse)(@glimmer/component@2.0.0)(@glint/template@1.5.1)(rsvp@4.8.5)(webpack@5.97.1(@swc/core@1.10.7)(esbuild@0.24.2)))
@@ -4231,8 +4231,8 @@ packages:
     resolution: {integrity: sha512-2UBUa5SAuPg8/kRVaiOfTwlXdeVweal1zdNPibwItrhR0IvPrXpaqwJDlEZnWKEoB+h33V0JIfiWleSG6hGkkA==}
     engines: {node: 10.* || >= 12.*}
 
-  ember-curry-component@0.1.0:
-    resolution: {integrity: sha512-gHvhO1NlH8ypOGcGfiignkIV4PHSuP5yKlBz1pkf7TjVHsdBBmHOJrvakFXqbXJjM+68DMYSobNg1/Vq0GIt+w==}
+  ember-curry-component@0.3.0:
+    resolution: {integrity: sha512-rNgroW+Uwz1htijUFYnyNEyPeWh/MtyAUcoPJGNjBj5juUxUJiLR5X9PrahQV0yNeGLyMdr3Nap7C5QqEt8NlQ==}
 
   ember-decorators@6.1.1:
     resolution: {integrity: sha512-63vZPntPn1aqMyeNRLoYjJD+8A8obd+c2iZkJflswpDRNVIsp2m7aQdSCtPt4G0U/TEq2251g+N10maHX3rnJQ==}
@@ -5913,6 +5913,7 @@ packages:
 
   lodash.get@4.4.2:
     resolution: {integrity: sha512-z+Uw/vLuy6gQe8cfaFWD7p0wVv8fJl3mbzXh33RS+0oW2wvUqiRXiQ69gLWSLpgB5/6sU+r6BlQR0MBILadqTQ==}
+    deprecated: This package is deprecated. Use the optional chaining (?.) operator instead.
 
   lodash.isarguments@3.1.0:
     resolution: {integrity: sha512-chi4NHZlZqZD18a0imDHnZPrDeBbTtVN7GXMwuGdRH9qotxAjYs3aVLKc7zNOG9eddR5Ksd8rvFEBc9SsggPpg==}
@@ -5928,6 +5929,7 @@ packages:
 
   lodash.omit@4.5.0:
     resolution: {integrity: sha512-XeqSp49hNGmlkj2EJlfrQFIzQ6lXdNro9sddtQzcJY8QaoC2GO0DT7xaIokHeyM+mIT0mPMlPvkYzg2xCuHdZg==}
+    deprecated: This package is deprecated. Use destructuring assignment syntax instead.
 
   lodash.uniq@4.5.0:
     resolution: {integrity: sha512-xfBaXQd9ryd9dlSDvnvI0lvxfLJlYAZzXomUYzLKtUeOQvOP5piqAWuGtrhWeqaXK9hhoM/iyJc5AV+XfsX3HQ==}
@@ -12453,7 +12455,7 @@ snapshots:
       - '@babel/core'
       - supports-color
 
-  ember-curry-component@0.1.0(@babel/core@7.26.0):
+  ember-curry-component@0.3.0(@babel/core@7.26.0):
     dependencies:
       '@embroider/addon-shim': 1.9.0
       decorator-transforms: 2.3.0(@babel/core@7.26.0)
