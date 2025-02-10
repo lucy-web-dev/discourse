@@ -101,8 +101,8 @@ importers:
         specifier: ^3.0.0
         version: 3.0.0(ember-template-lint@6.0.0)
       lint-to-the-future-eslint:
-        specifier: ^2.2.0
-        version: 2.2.0(eslint@9.18.0)
+        specifier: ^3.0.0
+        version: 3.0.0(eslint@9.18.0)
       magnific-popup:
         specifier: 1.1.0
         version: 1.1.0
@@ -5842,8 +5842,8 @@ packages:
     peerDependencies:
       ember-template-lint: ^2.0.0 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0
 
-  lint-to-the-future-eslint@2.2.0:
-    resolution: {integrity: sha512-qVAplasyGhUxtehl4Rfmj4qNiHx8axZKu9HtqbjeyRrcIRyXGcHr5UECJSRP0H4sraCk+wB1IuG0k7Mv2ax3Aw==}
+  lint-to-the-future-eslint@3.0.0:
+    resolution: {integrity: sha512-ffB9PyFloMd0S3AvYUeqG24rXPAqGbd8xY3SOAnHI1W/8M6E3s+XO7UgmxjVyxHkd5suMLeZ7ymFn3QWhhVWWQ==}
     engines: {node: 10.* || >= 12.*}
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
@@ -5913,6 +5913,7 @@ packages:
 
   lodash.get@4.4.2:
     resolution: {integrity: sha512-z+Uw/vLuy6gQe8cfaFWD7p0wVv8fJl3mbzXh33RS+0oW2wvUqiRXiQ69gLWSLpgB5/6sU+r6BlQR0MBILadqTQ==}
+    deprecated: This package is deprecated. Use the optional chaining (?.) operator instead.
 
   lodash.isarguments@3.1.0:
     resolution: {integrity: sha512-chi4NHZlZqZD18a0imDHnZPrDeBbTtVN7GXMwuGdRH9qotxAjYs3aVLKc7zNOG9eddR5Ksd8rvFEBc9SsggPpg==}
@@ -5928,6 +5929,7 @@ packages:
 
   lodash.omit@4.5.0:
     resolution: {integrity: sha512-XeqSp49hNGmlkj2EJlfrQFIzQ6lXdNro9sddtQzcJY8QaoC2GO0DT7xaIokHeyM+mIT0mPMlPvkYzg2xCuHdZg==}
+    deprecated: This package is deprecated. Use destructuring assignment syntax instead.
 
   lodash.uniq@4.5.0:
     resolution: {integrity: sha512-xfBaXQd9ryd9dlSDvnvI0lvxfLJlYAZzXomUYzLKtUeOQvOP5piqAWuGtrhWeqaXK9hhoM/iyJc5AV+XfsX3HQ==}
@@ -14563,11 +14565,10 @@ snapshots:
       ember-template-lint: 6.0.0
       walk-sync: 2.2.0
 
-  lint-to-the-future-eslint@2.2.0(eslint@9.18.0):
+  lint-to-the-future-eslint@3.0.0(eslint@9.18.0):
     dependencies:
       eslint: 9.18.0
       import-cwd: 3.0.0
-      semver: 7.6.3
       walk-sync: 3.0.0
 
   lint-to-the-future@2.6.2(encoding@0.1.13):
